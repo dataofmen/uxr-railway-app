@@ -1,4 +1,0 @@
-RAILWAY_DEPLOY=true
-BUILD_TRIGGER=automated
-PROJECT_NAME=uxr-research-designer
-DEPLOYMENT_TIME=$(date +%Y%m%d_%H%M%S)
