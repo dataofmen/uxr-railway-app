@@ -4,9 +4,20 @@ AI-powered research design tool that ensures methodological rigor and helps crea
 
 ## 🚀 Quick Deploy to Railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/dataofmen/uxr-railway-app)
+### Method 1: Direct GitHub Deploy (Recommended)
 
-**One-click deployment ready!** 👆 Click the button above to deploy instantly.
+1. **Visit [Railway.app](https://railway.app)** and sign in with GitHub
+2. **Click "New Project"** 
+3. **Select "Deploy from GitHub repo"**
+4. **Choose** `dataofmen/uxr-railway-app` repository
+5. **Deploy automatically starts** - Railway detects Next.js configuration
+6. **Done!** Your app will be live in ~2-3 minutes
+
+### Method 2: One-Click Button
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/yewmIT?referralCode=alpaca)
+
+**Alternative one-click option** 👆 Try this if the direct GitHub method doesn't work.
 
 ### Manual Deployment Steps
 

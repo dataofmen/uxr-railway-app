@@ -1,0 +1,32 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "npm ci && npm run build"
+  },
+  "deploy": {
+    "startCommand": "npm start",
+    "healthcheckPath": "/",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "on_failure",
+    "restartPolicyMaxRetries": 10
+  },
+  "env": {
+    "NODE_ENV": {
+      "description": "Node.js environment",
+      "default": "production"
+    },
+    "PORT": {
+      "description": "Port for the application",
+      "default": "3000"
+    },
+    "NEXT_PUBLIC_APP_NAME": {
+      "description": "Application name",
+      "default": "UX Research Designer"
+    },
+    "NEXT_PUBLIC_APP_VERSION": {
+      "description": "Application version",
+      "default": "1.0.0"
+    }
+  }
+}
