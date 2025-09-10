@@ -2,6 +2,28 @@
 
 AI-powered research design tool that ensures methodological rigor and helps create bulletproof research plans that withstand stakeholder scrutiny.
 
+## 🚀 Quick Deploy to Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new?template=https://github.com/dataofmen/uxr-railway-app)
+
+**One-click deployment ready!** 👆 Click the button above to deploy instantly.
+
+### Manual Deployment Steps
+
+If you prefer manual deployment:
+
+1. **Visit [Railway.app](https://railway.app)** and sign in with GitHub
+2. **Click "New Project"** → **"Deploy from GitHub repo"**
+3. **Select** `dataofmen/uxr-railway-app` repository
+4. **Railway automatically detects** Next.js configuration
+5. **Deploy completes** in ~2-3 minutes
+6. **Custom domain** auto-generated as `*.railway.app`
+
+### Repository Information
+- **GitHub**: https://github.com/dataofmen/uxr-railway-app
+- **Built with**: Next.js 14, TypeScript, Tailwind CSS
+- **Deployment**: Railway-optimized with `railway.toml`
+
 ## ✨ Features
 
 - 🧠 **AI-Powered Methodology Recommendations**: Smart algorithm recommends optimal research methods based on your project constraints
